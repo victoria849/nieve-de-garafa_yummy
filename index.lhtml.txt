@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Paraíso</title>
+    <style>
+        /* ====== ESTILOS GENERALES ====== */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F8BBD0;
+        }
+
+        /* ====== MENÚ DE NAVEGACIÓN ====== */
+        header {
+            background-color: #F8BBD0;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #F8BBD0;
+        }
+
+        /* ====== SECCIÓN PRINCIPAL ====== */
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1501117716987-c8e1ecb2100a');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+        }
+
+        /* ====== CONTENIDO ====== */
+        .container {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: black;
+        }
+
+        h2 {
+            color: #FCE4EC;
+        }
+
+        .servicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .servicio {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        /* ====== PIE DE PÁGINA ====== */
+        footer {
+            background-color: #B2DFDB;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ====== MENÚ ====== -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="habitaciones.html">Habitaciones</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ====== PORTADA ====== -->
+    <section class="hero" id="inicio">
+        <h1>Hotel Paraíso</h1>
+    </section>
+
+    <!-- ====== CONTENIDO ====== -->
+   
+        <h2>Nuestros Servicios</h2>
+   
+    <!-- ====== PIE DE PÁGINA ====== -->
+    <footer id="contacto">
+        <p>YUMMY NIEVE DE GARRAFA ©️ 2026</p>
+        <p>IG:@yummy_helado | Tel:3231221581</p>
+    </footer>
+
+</body>
+</html>

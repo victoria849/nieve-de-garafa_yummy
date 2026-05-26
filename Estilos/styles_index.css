@@ -1,0 +1,86 @@
+/* ====== ESTILOS GENERALES ====== */
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #F8BBD0;
+        }
+
+        /* ====== MENÚ DE NAVEGACIÓN ====== */
+        header {
+            background-color: #80CBC4;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            color: #f1c40f;
+        }
+
+        /* ====== SECCIÓN PRINCIPAL ====== */
+        .hero {
+            background-image: url('https://images.unsplash.com/photo-1501117716987-c8e1ecb2100a');
+            background-size: cover;
+            background-position: center;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            text-shadow: 2px 2px 5px black;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+        }
+
+        /* ====== CONTENIDO ====== */
+        .container {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: white;
+        }
+
+        h2 {
+            color: #80CBC4;
+        }
+
+        .servicios {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .servicio {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        /* ====== PIE DE PÁGINA ====== */
+        footer {
+            background-color: #80CBC4;
+            color: black;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
